@@ -49,6 +49,7 @@ h1 {
     margin-top: auto;
     background-color: aquamarine;
     padding: 20px;
+    border: 2px solid black;
 }
 
 .img-container {
@@ -103,22 +104,6 @@ p {
 }
 
 
-/* Footer */
-
-.footer-container {
-    display: flex;
-    background-color:rgb(248, 169, 132);
-    text-align: center;
-    justify-content: center;
-}
-
-.footer {
-    background-color: rgb(248, 169, 132);
-}
-.footer div {
-    background-color: rgb(248, 169, 132);
-}
-
 /* Modern */
 .modern-container {
     display: flex;
@@ -137,7 +122,7 @@ p {
 }
 
 /* Basic Menu */
-.menu {
+#menu {
     height: auto;
     width: 600px;
     background-color: aquamarine;
@@ -147,14 +132,14 @@ p {
     padding: 5px;
 }
 
-.menu img {
+#menu img {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.menu p {
+#menu p {
     display: inline-block;
 }
 .service {
@@ -165,3 +150,26 @@ p {
 .prices {
     text-align: right;
 }
+
+#menu h1, .Feel-the-Cut h1 {
+   border-color: aquamarine;
+}
+
+/* Footer */
+.feet {
+   display: inline;
+}
+
+footer {
+    padding: 10px;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: 2px solid white;
+}
+
+#contact-us p {
+    background-color: #BDC3C7;
+    border: 2px solid #BDC3C7;
+}
+
